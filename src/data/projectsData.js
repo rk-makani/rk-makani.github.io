@@ -5,7 +5,7 @@ import four from '../assets/svg/projects/four.svg'
 import five from '../assets/svg/projects/five.svg'
 import six from '../assets/svg/projects/six.svg'
 import seven from '../assets/svg/projects/seven.svg'
-import eight from '../assets/svg/projects/eight.svg'
+// import eight from '../assets/svg/projects/eight.svg'
 
 
 export const projectsData = [
@@ -47,7 +47,7 @@ export const projectsData = [
     },
     {
         id: 5,
-        projectName: 'Bachelor\'s Thesis \: Development of PID control based Self Balancing Robot',
+        projectName: 'Bachelor Thesis : Development of PID control based Self Balancing Robot',
         projectDesc: 'Developed a feedback control system for balancing a two wheeled robot vertically using NI LabVIEW and NI myRIO board. Designed a complementary filter for fusion of gyroscope and accelerometer data in order to achieve high accuracy tilt-angle measurement to be used as negative feedback. PID control algorithm tuned using Ziegler–Nichols method was used for controlling the duty cycle of PWM signal being given to the wheel motors to produce a balancing action. Implemented a sensor fusion model using a complementary filter combining gyroscope and accelerometer data. Awarded the highest achievable grade of 10.0 (Indian grading system).',
         tags: ['LabVIEW', 'Control Systems', 'Robotics', 'Sensor Fusion', 'Embedded Systems'],
         code: 'http://rvjsteam.rvce.edu.in/pdf/02/05.pdf',
@@ -56,7 +56,7 @@ export const projectsData = [
     },
     {
         id: 6,
-        projectName: 'Master\'s Project \: Race Against The Machine',
+        projectName: 'Master Project : Race Against The Machine',
         projectDesc: 'Developed a racing scenario between a teleoperated vehicle and an autonomous vehicle. Established robust Teleoperated Driving over a 5G network. Implemented SLAM using Google Cartographer with Pure Pursuit control for autonomous navigation. Designed and Developed V2V and V2I communication using Cooperative Awareness Messages (CAM). Built a Digital Twin UI to show live vehicle positions on a map.',
         tags: ['C/C++', 'ROS', '5G Communication', 'V2X Communication', 'Robotics', 'SLAM', 'Teleoperation'],
         code: '', // TODO: add poster picture
@@ -65,7 +65,7 @@ export const projectsData = [
     },
     {
         id: 7,
-        projectName: 'Master’s Thesis \: Design and Development of a Novel Trust Framework for Humanoid Trust Behaviour in Multi-Robot Systems',
+        projectName: 'Master Thesis : Design and Development of a Novel Trust Framework for Humanoid Trust Behaviour in Multi-Robot Systems',
         projectDesc: 'Developed a mathematical model to quantify the trustworthiness of each robot in a Multi-Robot System (MRS) based on its inherent features, such as capabilities. Designed and developed a trust model that updates the robot’s capabilities based on the outcomes of allocated tasks to the robots and evaluated the proposed novel trust framework against metrics such as trust convergence. Achieved 100% task allocation using the trust framework in a Python (using numpy, libraries) based simulation for a given mathematical distribution of incoming tasks to the MRS. Awarded Best Thesis with the highest possible grade of 1.0 (German grading system).',
         tags: ['Python', 'Robotics', 'Research', 'Multi-Robot Systems', 'Trust Framework', 'Simulation'],
         code: '', // TODO: add repo with PPT and architecture
