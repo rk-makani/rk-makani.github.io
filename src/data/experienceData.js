@@ -1,10 +1,11 @@
-export const experienceData = [
+export const experienceData = 
+[
     {
         id: 1,
-        company: 'CENSE, Indian Institute of Science, Bengaluru, India',
-        jobtitle: 'Intern, Embedded Systems',
-        startYear: '2018',
-        endYear: '2019'
+        company: 'BE.services GmbH, Kempten, Germany',
+        jobtitle: 'Embedded Software Engineer',
+        startYear: 'May 2024',
+        endYear: 'Present'
     },
     {
         id: 2,
@@ -15,9 +16,9 @@ export const experienceData = [
     },
     {
         id: 3,
-        company: 'BE.services GmbH, Kempten, Germany',
-        jobtitle: 'Embedded Software Engineer',
-        startYear: '2020',
-        endYear: 'Present'
+        company: 'CENSE, Indian Institute of Science, Bengaluru, India',
+        jobtitle: 'Intern, Embedded Systems',
+        startYear: '2018',
+        endYear: '2019'
     },
 ]

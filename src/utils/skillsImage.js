@@ -72,9 +72,16 @@ import picsart from '../assets/svg/skills/picsart.svg'
 import sketch from '../assets/svg/skills/sketch.svg'
 import unity from '../assets/svg/skills/unity.svg'
 import wolframalpha from '../assets/svg/skills/wolframalpha.svg'
-
+import ros from '../assets/svg/skills/ros.svg'
+import labview from '../assets/svg/skills/labview.svg'
 import canva from '../assets/svg/skills/canva.svg'
+import embeddedC from '../assets/svg/skills/C_slash_cpp.svg'
+import lora from '../assets/svg/skills/lorawan.svg';
+import fiveGcommunication from '../assets/svg/skills/5Gcommunication.svg'
+import qa from '../assets/svg/skills/qa.svg'
 
+import opcua from '../assets/png/opcua.png'
+import shiftleft from '../assets/png/shiftleft.png'
 
 export const skillsImage = (skill) => {
     const skillID = skill.toLowerCase();
@@ -227,6 +234,49 @@ export const skillsImage = (skill) => {
             return wolframalpha;
         case 'canva':
             return canva;
+        case 'ros': return ros;
+        case 'labview': return labview;
+
+        case 'embedded c/c++':
+        case 'embedded c++':
+        case 'embedded c':
+        case 'embedded c / c++':
+            return embeddedC;
+
+        case 'lora':
+            return lora;
+        case 'lorawan':
+            return lora;
+
+        case 'opc ua':
+            return opcua;
+        case 'opc-ua':
+            return opcua;
+        case 'opcua':
+            return opcua;
+        case 'opc ua fx':
+            return opcua;
+
+        case '5g communication':
+            return fiveGcommunication;
+        case '5g':
+            return fiveGcommunication;
+
+        case 'git ci/cd':
+        case 'git ci cd':
+        case 'ci/cd':
+        case 'ci cd':
+            return git;
+
+        case 'quality assurance':
+        case 'qa':
+            return qa;
+
+        case 'shift left testing':
+        case 'shift-left testing':
+        case 'shift left':
+            return shiftleft;
+
         default:
             break;
     }

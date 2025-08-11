@@ -1,6 +1,7 @@
 import resume from '../assets/pdf/resume.pdf'
 
-export const headerData = {
+export const headerData = 
+{
     name: 'Ramakrishna Makani',
     title: "Software Engineer",
     desciption:"Iterate. Test. Learn. Repeat.",
