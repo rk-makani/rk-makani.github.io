@@ -3,7 +3,7 @@
     'C++',
     'Python',
     'ROS',
-    'Embedded C/C++',
+    'Embedded Programming',
     'Linux',
     'OPC UA FX', 
     'LoRa', 
@@ -12,7 +12,8 @@
     'Matlab',
     'Git CI/CD',
     'Quality Assurance',
-    'Shift Left',
+    'Docker',
+    // 'Shift Left',
 ]
 
 // Choose your skills from below. Make sure it's in the same format and spelled correctly.

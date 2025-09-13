@@ -15,38 +15,38 @@ export const servicesData = [
     {
         id: 2,
         title: 'Programming (C++ / Python)',
-        icon: <BiPencil /> 
+        icon: <BsCodeSlash /> 
     },
-    {
-        id: 3,
-        title: 'OPC UA & TSN Consulting',
-        icon: <AiOutlineMail />
-    },
+    // {
+    //     id: 3,
+    //     title: 'OPC UA & TSN Consulting',
+    //     icon: <AiOutlineMail />
+    // },
     {
         id: 4,
-        title: 'Industrial Communication Solutions',
+        title: 'Industrial Communication Consulting',
         icon: <FaNetworkWired />
     },
     {
         id: 5,
-        title: 'Robotics Software & Control',
+        title: 'Robotic Integration & Automation',
         icon: <FaRobot />
     },
-    {
-        id: 6,
-        title: 'Web & Digital Twin Development',
-        icon: <MdWeb />
-    },
-    {
-        id: 7,
-        title: 'Custom Sensor Design',
-        icon: <MdSettingsInputAntenna />
-    },
-    {
-        id: 8,
-        title: 'PLC Programming & Automation',
-        icon: <FaTools />
-    },
+    // {
+    //     id: 6,
+    //     title: 'Web & Digital Twin Development',
+    //     icon: <MdWeb />
+    // },
+    // {
+    //     id: 7,
+    //     title: 'Custom Sensor Design',
+    //     icon: <MdSettingsInputAntenna />
+    // },
+    // {
+    //     id: 8,
+    //     title: 'PLC Programming & Automation',
+    //     icon: <FaTools />
+    // },
     {
         id: 9,
         title: 'Technical Documentation & Whitepapers',
@@ -65,11 +65,11 @@ export const servicesData = [
     {
         id: 12,
         title: 'Prototype Development',
-        icon: <AiFillProject />
+        icon: <BiPencil />
     },
-    {
-        id: 13,
-        title: 'Industrial Software Design',
-        icon: <BsCodeSlash />
-    }
+    // {
+    //     id: 13,
+    //     title: 'Industrial Software Design',
+    //     icon: <BsCodeSlash />
+    // }
 ]

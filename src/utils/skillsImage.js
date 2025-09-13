@@ -44,7 +44,7 @@ import deno from '../assets/svg/skills/deno.svg'
 import django from '../assets/svg/skills/django.svg'
 import firebase from '../assets/svg/skills/firebase.svg'
 import gimp from '../assets/svg/skills/gimp.svg'
-import git from '../assets/svg/skills/git.svg'
+import gitlab from '../assets/svg/skills/git.svg'
 import graphql from '../assets/svg/skills/graphql.svg'
 import lightroom from '../assets/svg/skills/lightroom.svg'
 import materialui from '../assets/svg/skills/materialui.svg'
@@ -75,12 +75,13 @@ import wolframalpha from '../assets/svg/skills/wolframalpha.svg'
 import ros from '../assets/svg/skills/ros.svg'
 import labview from '../assets/svg/skills/labview.svg'
 import canva from '../assets/svg/skills/canva.svg'
-import embeddedC from '../assets/svg/skills/C_slash_cpp.svg'
+import embeddedprogramming from '../assets/svg/skills/embedded.svg'
 import lora from '../assets/svg/skills/lorawan.svg';
 import fiveGcommunication from '../assets/svg/skills/5Gcommunication.svg'
 import qa from '../assets/svg/skills/qa.svg'
-
-import opcua from '../assets/png/opcua.png'
+import opcua from '../assets/svg/skills/opcua.svg'
+import github from '../assets/svg/skills/github.svg'
+import linux from '../assets/svg/skills/linux.svg'
 import shiftleft from '../assets/png/shiftleft.png'
 
 export const skillsImage = (skill) => {
@@ -178,8 +179,10 @@ export const skillsImage = (skill) => {
             return firebase;
         case 'gimp':
             return gimp;
-        case 'git':
-            return git;
+        case 'gitlab':
+            return gitlab;
+        case 'github':
+            return github;
         case 'graphql':
             return graphql;
         case 'lightroom':
@@ -241,7 +244,8 @@ export const skillsImage = (skill) => {
         case 'embedded c++':
         case 'embedded c':
         case 'embedded c / c++':
-            return embeddedC;
+        case 'embedded programming':
+            return embeddedprogramming;
 
         case 'lora':
             return lora;
@@ -266,11 +270,14 @@ export const skillsImage = (skill) => {
         case 'git ci cd':
         case 'ci/cd':
         case 'ci cd':
-            return git;
-
+            return github;
+        
         case 'quality assurance':
         case 'qa':
             return qa;
+
+        case 'linux':
+            return linux;
 
         case 'shift left testing':
         case 'shift-left testing':

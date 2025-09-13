@@ -1,14 +1,13 @@
 export const achievementData = {
-    bio : "Putting quantified achievements on a resume is great, but I just don’t work with hard numbers. I have no data to support the quality of my work. If you have lots of relevant experience, the heading statement of your resume will be a summary.",
+    bio : "Built my first IoT project at 17 years of age. Driven by curiosity and a passion for connecting the physical and digital worlds",
 achievements: [
-    
     {
         id: 1,
         title: 'CCNA Routing and Switching: Routing and Switching Essentials',
         details: 'Completed Cisco’s Routing and Switching Essentials certification, gaining skills in configuring and troubleshooting routers and switches, implementing VLANs, and understanding network scalability and security.',
         date: 'July 2017',
         field: 'Networking',
-        image: 'https://raw.githubusercontent.com/rk-makani/assets/refs/heads/main/photos/Cisco_logo_blue.svg.webp'
+        image: 'https://raw.githubusercontent.com/rk-makani/assets/refs/heads/main/photos/cisco.svg'
     },
     {
         id : 2,
@@ -16,7 +15,7 @@ achievements: [
         details: 'Completed Cisco’s Introduction to Networks certification, covering foundational networking concepts, TCP/IP models, IPv4/IPv6 addressing, and hands-on experience with Cisco networking equipment.',
         date: 'July 2017',
         field: 'Networking',
-        image: 'https://raw.githubusercontent.com/rk-makani/assets/refs/heads/main/photos/Cisco_logo_blue.svg.webp'
+        image: 'https://raw.githubusercontent.com/rk-makani/assets/refs/heads/main/photos/cisco.svg'
     },
     {
         id: 3,
